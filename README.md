@@ -5,7 +5,7 @@ This site was create for the following reasons
 
 It is a working live resume
 The opportunity for me to learn flask
-The opportunity for me to learn AWS using EC2, Elastic Beanstalk, RDS and ROute 53
+The opportunity for me to learn AWS using EC2, Elastic Beanstalk, RDS and Route 53
 =======
 # pauljgodin
 Python based website
