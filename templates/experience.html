@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for result in results %}
+ <div class="table-responsive">
+  <table class="table">
+    <tr>
+      <td>
+      <b>{{ result.company }}</b>
+      </td><td>
+      <b>{{ result.jobtitle }}</b>
+      </td><td align=right>
+      <b>{{ result.when }}</b>
+      </td></tr><tr><td colspan=3>
+        {{ result.details|safe }}
+      </td></tr>
+  </table>
+</div>
+{% endfor %}
+
+{% endblock %}
